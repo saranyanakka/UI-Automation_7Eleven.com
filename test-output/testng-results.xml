@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="34362" started-at="2018-03-07T14:19:47Z" finished-at="2018-03-07T14:20:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="34362" started-at="2018-03-07T14:19:47Z" finished-at="2018-03-07T14:20:21Z">
+      <class name="Academy.HomePage">
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:Academy.HomePage@12cdcf4]" name="initializeBrowser" is-config="true" duration-ms="3704" started-at="2018-03-07T14:19:47Z" finished-at="2018-03-07T14:19:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="HomePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@12cdcf4]" name="HomePageNavigation" duration-ms="19009" started-at="2018-03-07T14:19:50Z" data-provider="getData" finished-at="2018-03-07T14:20:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[saranya@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageNavigation -->
+        <test-method status="PASS" signature="HomePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@12cdcf4]" name="HomePageNavigation" duration-ms="11409" started-at="2018-03-07T14:20:09Z" data-provider="getData" finished-at="2018-03-07T14:20:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pavan@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageNavigation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Academy.HomePage@12cdcf4]" name="closeBrowser" is-config="true" duration-ms="217" started-at="2018-03-07T14:20:21Z" finished-at="2018-03-07T14:20:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Academy.HomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

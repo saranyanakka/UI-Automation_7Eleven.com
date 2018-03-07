@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+  <test thread-count="5" name="TestLoginFunctionality">
+    <classes>
+    <class name="Academy.HomePage"/>
+    </classes>
+  </test>
+  
+    <test thread-count="5" name="TestValidationText">
+    <classes>
+         <class name="Academy.validatetext"/>
+    </classes>
+  </test>
+  
+    <test thread-count="5" name="TestNavigationBar">
+    <classes>
+    <class name="Academy.validateNavigation"/>
+    </classes>
+  </test>
+    
+    <test thread-count="5" name="Test">
+    <classes>
+     <class name="Academy.AppTest"/>
+    </classes>
+  </test>
+    
+
+</suite> <!-- Suite -->
